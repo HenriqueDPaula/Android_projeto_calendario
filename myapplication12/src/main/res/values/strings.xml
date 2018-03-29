@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Projeto</string>
+    <string name="nomeProjeto">Nome do Projeto</string>
+    <string name="dataInicio">Inicio: __/__/____</string>
+    <string name="dataFinal">Entrega: __/__/____</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="Salvar">Salvar</string>
+    <string name="nomeProjetoResult">Nome do Projeto:</string>
+    <string name="finalizadoResult">Finalizado:</string>
+    <string name="labelProjetoResult">Nome do Projeto:</string>
+</resources>

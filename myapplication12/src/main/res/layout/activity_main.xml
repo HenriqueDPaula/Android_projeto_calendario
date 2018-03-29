@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication12.MainActivity">
+
+  <EditText
+      android:id="@+id/editProjeto"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/nomeProjeto"/>
+    <TextView
+        android:id="@+id/textDataInicio"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dataInicio"/>
+    <TextView
+        android:id="@+id/textDataFinal"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dataFinal"/>
+    <CheckBox
+        android:id="@+id/checkFinalizado"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finalizado"/>
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Salvar"/>
+  <GridLayout
+      android:rowCount="2"
+      android:columnCount="2"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent">
+        <TextView
+            android:text="@string/labelProjetoResult"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id = "@+id/nomeProjetoResult"
+            android:textSize="20sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/finalizadoResult"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id = "@+id/finalizadoResult"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+  </GridLayout>
+
+
+</LinearLayout>

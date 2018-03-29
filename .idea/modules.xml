@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EstoqueApp.iml" filepath="$PROJECT_DIR$/EstoqueApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EstoqueApp.iml" filepath="$PROJECT_DIR$/.idea/EstoqueApp.iml" />
+      <module fileurl="file://C:\Users\opet\AndroidStudioProjects\EstoqueApp\EstoqueApp.iml" filepath="C:\Users\opet\AndroidStudioProjects\EstoqueApp\EstoqueApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\opet\AndroidStudioProjects\EstoqueApp\app\app.iml" filepath="C:\Users\opet\AndroidStudioProjects\EstoqueApp\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication12/myapplication12.iml" filepath="$PROJECT_DIR$/myapplication12/myapplication12.iml" />
     </modules>
   </component>
 </project>
